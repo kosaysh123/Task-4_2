@@ -58,7 +58,7 @@ color: white !important;
 }
 @media(max-width:1050px){
     .ENROLL{
-        display: none;
+        display: none !important;
     }
 }
 .ENROLL{
@@ -182,6 +182,11 @@ color: white !important;
 .price .box{
     width: 400px;
 }
+@media(max-width:988px){
+    .price .box{
+        margin: auto;
+    }
+}
 /* End Price */
 /* Start Testimonials */
 
@@ -189,3 +194,9 @@ color: white !important;
 /* Start Chooes Us */
 
 /* End Chooes Us */
+
+@media(max-width:750px){
+    footer .Project{
+        margin: auto;
+    }
+}
